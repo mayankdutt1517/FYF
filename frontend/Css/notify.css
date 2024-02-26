@@ -1,0 +1,28 @@
+.notiContainer {
+  border: 2px solid rgb(0, 212, 0);
+  box-shadow: inset 0 0 10px green;
+  width: 99%;
+  height: 1.8rem;
+  margin-top: 0.5rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 255, 0);
+  font-size: 1rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.notiContainerneg {
+  border: 2px solid rgb(153, 0, 0);
+  box-shadow: inset 0 0 10px rgb(180, 1, 1);
+  width: 99%;
+  height: 1.8rem;
+  margin-top: 0.5rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 0, 0);
+  font-size: 1rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}

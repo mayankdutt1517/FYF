@@ -1,0 +1,53 @@
+:root {
+  --pri-color: #f9f7c9;
+  --sec-color: #d5f0c1;
+  --third-color: #aad9bb;
+  --fourth-color: #80bcbd;
+}
+.Cartmain {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 3rem;
+}
+.incartcontainer {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+.incart {
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 8px;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-between;
+}
+.incart > img {
+  height: 100%;
+  margin-left: 1rem;
+}
+.incart > strong {
+  font-size: 1.2rem;
+  color: var(--sec-color);
+}
+.incart > button {
+  margin-right: 1rem;
+  padding: 0.5rem;
+  background-color: rgb(160, 7, 7);
+  border: none;
+  color: aliceblue;
+  border-radius: 2rem;
+}
+
+.CartText {
+  font-size: 1.5rem;
+  color: #f9f7c9;
+}

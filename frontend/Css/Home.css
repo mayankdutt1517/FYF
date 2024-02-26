@@ -1,0 +1,99 @@
+:root {
+  --pri-color: #f9f7c9;
+  --sec-color: #d5f0c1;
+  --third-color: #aad9bb;
+  --fourth-color: #80bcbd;
+}
+.Homecontain {
+  width: 100%;
+  display: grid;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  place-items: center;
+  margin-top: 1rem;
+}
+.buttonsED {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.fabtn {
+  font-size: 1.2rem;
+  color: #aad9bb;
+}
+.objectcontain {
+  width: 14.4rem;
+  height: 18.5rem;
+  cursor: pointer;
+  margin: 0.5rem;
+  background-color: #1c1c1c;
+  border: 2px solid rgb(134, 133, 133);
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+.center {
+  width: 13rem;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.image {
+  width: 90%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin: 0 0 0 9px;
+  background-color: white;
+}
+.image > img {
+  height: 100%;
+}
+.infoname {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.infoname > strong {
+  font-size: 1.2rem;
+  color: var(--fourth-color);
+}
+
+.infoname > strong:hover {
+  text-decoration: underline 1px solid var(--fourth-color);
+}
+.infoprice {
+  display: flex;
+  color: var(--pri-color);
+}
+.center > p {
+  color: var(--pri-color);
+}
+.center > button {
+  border: 1px solid var(--pri-color);
+  border-radius: 5px;
+  background-color: var(--fourth-color);
+  color: var(--pri-color);
+  padding: 10px;
+}
+.center > button:hover {
+  color: var(--fourth-color);
+  background-color: var(--pri-color);
+}
+.heading {
+  width: 100%;
+}
+@media screen and (max-width: 600px) {
+  .Homecontain {
+    grid-template-columns: 1fr;
+    margin-top: 10px;
+  }
+  .objectcontain {
+    width: 90%;
+    height: 23rem;
+  }
+}
